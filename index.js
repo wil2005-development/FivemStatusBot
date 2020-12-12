@@ -37,8 +37,10 @@ client.on('message', async (message) => {
    })
 
    client.on("message", async (message) => {
+       if (message.content === 'status') {
     srv.getPlayers().then(data => message.channel.send(`Spelers online: ${data}`))
     srv.getServerStatus().then(data1 => message.channel.send(`Server status: ${data1}`))
-   });
+       }
+      });
     
    client.login(botConfig.token);
