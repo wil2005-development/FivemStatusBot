@@ -1,0 +1,21 @@
+{
+  "name": "fivemstatus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Fivem",
+    "Status",
+    "Bot"
+  ],
+  "author": "William",
+  "license": "ISC",
+  "dependencies": {
+    "discord-fivem-api": "^1.0.1",
+    "discord.js": "^11.6.4",
+    "fivem": "^2.1.2"
+  }
+}
